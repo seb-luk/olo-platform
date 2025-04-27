@@ -1,0 +1,48 @@
+{
+    "name": "olo-platform",
+    "version": "0.1.0",
+    "description": "olo platform provides utility functions and types commonly used throughout other olo packages.",
+    "keywords": ["utilities", "types"],
+    "type": "module",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seb-luk/olo-platform.git"
+    },
+    "bugs": {
+      "url": "https://github.com/seb-luk/olo-platform/issues"
+    },
+    "author": "Sebastian Luksic <sebastian.luksic@me.com>",
+    "files": [
+        "package.json",
+        "README.md",
+        "LICENSE",
+        "src/**/*.ts",
+        "dist/**/*.js",
+        "dist/**/*.js.map",
+        "dist/**/*.d.ts",
+        "dist/**/*.d.ts.map",
+        "!src/**/*spec.ts",
+        "!dist/test/",
+        "!dist/**/*spec.js",
+        "!dist/**/*spec.js.map",
+        "!dist/**/*spec.d.ts",
+        "!dist/**/*spec.d.ts.map"
+    ],
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+        "build": "shx rm -rf ./dist/* && shx rm -rf doc/ && tsc && typedoc --options typedoc.json"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.15.2",
+        "jest": "^29.7.0",
+        "shx": "^0.4.0",
+        "ts-jest": "^29.3.2",
+        "typedoc": "^0.28.3",
+        "typescript": "^5.8.3"
+    }
+}
