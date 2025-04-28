@@ -1,6 +1,6 @@
 {
     "name": "olo-platform",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "olo platform provides utility functions and types commonly used throughout other olo packages.",
     "keywords": ["utilities", "types"],
     "type": "module",

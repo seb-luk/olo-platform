@@ -1,4 +1,4 @@
-import { GetListTypeGuard } from './meta.types.js';
+import { GetListTypeGuard } from './meta.types.ts';
 
 // --- Test Setup ---
 

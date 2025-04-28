@@ -1,3 +1,3 @@
-export * from './common.types/index.js';
-export * from './file.types/index.js';
-export * from './meta.types.js';
+export * from './common.types/index.ts';
+export * from './file.types/index.ts';
+export * from './meta.types.ts';

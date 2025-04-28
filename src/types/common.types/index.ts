@@ -1,2 +1,2 @@
-export * from './object.types.js';
-export * from './string.types.js';
+export * from './object.types.ts';
+export * from './string.types.ts';

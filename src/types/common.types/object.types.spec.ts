@@ -4,7 +4,7 @@ import {
   isJsMap,
   isJsProperty,
   isMapObject,
-} from './object.types.js';
+} from './object.types.ts';
 
 describe('Object Types', () => {
   // --- isMapObject ---
